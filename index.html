@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Divas — Cintas modeladoras com conforto e elegância</title>
+<meta name="description" content="Cintas modeladoras pensadas para conforto e para valorizar diferentes corpos.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-home="1">
+<main id="conteudo">
+  <div id="inicio"></div>
+  <section class="hero" aria-roledescription="carrossel" aria-label="Destaques">
+    <div id="heroSlides"></div>
+    <div class="hero-ctl" id="heroCtl">
+      <button class="icon-btn" id="prevSlide" aria-label="Slide anterior">‹</button>
+      <div id="dots" class="dots"></div>
+      <button class="icon-btn" id="nextSlide" aria-label="Próximo slide">›</button>
+    </div>
+  </section>
+
+  <section class="wrap promos" id="promos" aria-label="Promoções"></section>
+
+  <section class="section wrap" id="produtos" aria-labelledby="tProd">
+    <h2 id="tProd" class="rule"><span>Produtos em destaque</span></h2>
+    <p class="lead" id="prodLead"></p>
+    <p class="sr" id="searchStatus" aria-live="polite"></p>
+    <div class="grid" id="productGrid"></div>
+  </section>
+
+  <section class="section alt" id="depoimentos" aria-labelledby="tDep">
+    <div class="wrap">
+      <h2 id="tDep">Depoimentos de clientes</h2>
+      <p class="lead" id="depLead"></p>
+      <div class="tgrid" id="testGrid"></div>
+    </div>
+  </section>
+
+  <section class="section wrap" aria-labelledby="tBen">
+    <h2 id="tBen">Benefícios e informações</h2>
+    <div class="bgrid" id="benGrid"></div>
+  </section>
+</main>
+<noscript><p style="padding:2rem;text-align:center">Ative o JavaScript para ver a loja.</p></noscript>
+<script src="js/config.js"></script>
+<script src="js/loja.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
